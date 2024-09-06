@@ -285,6 +285,24 @@ body {
     background: linear-gradient(180deg, rgba(255, 255, 255, .3) 0%, var(--color-showcase-header) 80%);
 }
 
+.attending {
+  background-color: rgba(0, 0, 0, 0.3);
+  
+  font-size: 13px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  
+  position: relative;
+
+  height: 60px;
+
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  padding: 8px;
+}
+
 /* GIVE ALL NON DIGIT TEXT ITS OWN SELECTOR!!
 .right-content a:hover {
   text-decoration: underline;
