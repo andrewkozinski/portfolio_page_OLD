@@ -1,7 +1,8 @@
 const schoolAttended = document.getElementById("schoolAttended");
 
 document.addEventListener('DOMContentLoaded', () => {
-    schoolAttended.style.left = `${document.getElementById("heading").offsetWidth - 700}px`;
+    schoolAttended.style.left = `${document.getElementById("right-content").offsetWidth - 700}px`;
+    schoolAttended.style.top = `${document.getElementById("heading").offsetHeight * .25}px`
     console.log("Width: " + document.getElementById("heading").offsetWidth);
 });
 
