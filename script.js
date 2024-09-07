@@ -1,9 +1,9 @@
 const schoolAttended = document.getElementById("schoolAttended");
 
 document.addEventListener('DOMContentLoaded', () => {
-    schoolAttended.style.left = `${document.getElementById("right-content").offsetWidth}px`;
+    schoolAttended.style.left = `${document.getElementById("right-content").left}px`;
     schoolAttended.style.top = `${document.getElementById("heading").offsetHeight * .25}px`
-    console.log("Width: " + document.getElementById("right-content").clientLeft);
+    console.log("Offsetleft: " + document.getElementById("right-content").clientLeft);
 });
 
 //handle JSON projects content
