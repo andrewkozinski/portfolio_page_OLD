@@ -125,6 +125,7 @@ body {
   display: flex;
   padding-bottom: 30px;
   gap: 10px;
+  position: relative;
 }
 
 .user-info {
@@ -292,7 +293,7 @@ body {
   border-radius: 5px;
   margin-bottom: 0px;
   
-  position: relative;
+  position: absolute;
 
   height: 60px;
 

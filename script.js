@@ -1,9 +1,11 @@
 const schoolAttended = document.getElementById("schoolAttended");
+const rightContent = document.getElementById("right-content");
 
 document.addEventListener('DOMContentLoaded', () => {
-    schoolAttended.style.left = `${document.getElementById("right-content").left}px`;
+    schoolAttended.style.left = `${700}px`;
     schoolAttended.style.top = `${document.getElementById("heading").offsetHeight * .25}px`
-    console.log("Offsetleft: " + document.getElementById("right-content").clientLeft);
+    console.log("Offsetleft: " + document.getElementById("right-content").offsetLeft);
+    console.log("Offsetleft: " + document.getElementById("right-content").parentElement.offsetLeft);
 });
 
 //handle JSON projects content
