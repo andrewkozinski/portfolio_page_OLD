@@ -1,8 +1,14 @@
 [
     {
-        "name": "Among us"
+        "title": "Risk of Rain 2",
+        "projImg": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/capsule_184x69.jpg?t=1699992764"
     },
     {
-        "name": "Deez"
+        "title": "Test",
+        "projImg": ""
+    },
+    {
+        "title": "Test",
+        "projImg": ""
     }
 ]
