@@ -19,8 +19,6 @@ fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io
 
         data.forEach( (project) => {
 
-            console.log(project.title);
-
             projectsSection.innerHTML += `
             
             <div class="inner-tab background project">
