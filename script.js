@@ -1,3 +1,4 @@
+//Imgur album where images are stored https://imgur.com/a/M4zfwQ7
 const schoolAttended = document.getElementById("schoolAttended");
 const rightContent = document.getElementById("right-content");
 const projectsSection = document.getElementById("projects-section");
