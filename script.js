@@ -24,8 +24,8 @@ fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io
             <div class="inner-tab background project">
                 
                 <div class="project-inner-upper">
-                  <img src="${project.previewImage}" height="69px" width="184px" >
-                  <p style="color: white; padding-left: 15px;">${project.previewImage}</p>
+                  <img src="${project.previewImg}" height="69px" width="184px" >
+                  <p style="color: white; padding-left: 15px;">${project.previewImg}</p>
                   
                 </div>
                 
