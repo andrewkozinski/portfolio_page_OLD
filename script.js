@@ -24,18 +24,16 @@ fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io
             <div class="inner-tab background project">
                 
                 <div class="project-inner-upper">
-                  <img src="${project.projImg}" height="69px" width="184px" >
-                  <p style="color: white; padding-left: 15px;">${project.title}</p>
+                  <img src="${project.previewImage}" height="69px" width="184px" >
+                  <p style="color: white; padding-left: 15px;">${project.previewImage}</p>
                   
                 </div>
                 
                 <div class="project-inner-lower align-items-center">
-                  <p style="color:white">Achievement Progress</p>
+                  <p style="color:white">Langugages Used</p>
                   <p style="padding-left: 8px; padding-right: 8px">5 of 118</p>
                   
-                  <div class="achievement_progress_bar_ctn">
-                    <div class="progress_bar" style="width: 4%;"></div>    
-                  </div>
+                  <div class="proj-langugages"></div>
  
                 </div>
                 
