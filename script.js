@@ -6,6 +6,7 @@ const projectsSection = document.getElementById("projects-section");
 projectsSection.innerHTML = "";
 
 document.addEventListener('DOMContentLoaded', () => {
+  //Note to self: maybe find a better way to display this on the page
     schoolAttended.style.left = `${700}px`;
     schoolAttended.style.top = `${document.getElementById("heading").offsetHeight * .25}px`
     console.log("Offsetleft: " + document.getElementById("right-content").offsetLeft);
