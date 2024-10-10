@@ -40,7 +40,10 @@
 }
 
 .navbar {
-  /*Make fixed perhaps? I'll figure this out later*/
+  /*Make fixed perhaps? I'll figure this out later
+  Fixed may not work either because it'd mean the navbar would ALWAYS appear on the top of the screen
+  Not really sure if I want that behavior, will look into more.
+  */
   /*background-color: #181c24;*/
   background-color: #222518;
   
