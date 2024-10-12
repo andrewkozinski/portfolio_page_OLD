@@ -32,10 +32,10 @@ fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io
                 </div>
                 
                 <div class="project-inner-lower align-items-center">
-                  <p style="color:white">Langugages Used</p>
+                  <p style="color:white">Languages Used</p>
                   <p style="padding-left: 8px; padding-right: 8px">5 of 118</p>
                   
-                  <div class="proj-langugages"></div>
+                  <div class="proj-languages"></div>
  
                 </div>
                 
