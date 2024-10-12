@@ -39,7 +39,7 @@
   padding-bottom: 45px;
 }
 
-.navbar {
+header {
   /*Make fixed perhaps? I'll figure this out later
   Fixed may not work either because it'd mean the navbar would ALWAYS appear on the top of the screen
   Not really sure if I want that behavior, will look into more.
@@ -59,8 +59,7 @@
   
   /*Original height*/
   /*height: 100px;*/
-  height: 100px;
-
+  height: 90px;
   /*padding-left: 470px;*/
   /*box-shadow: 0 2px 5px rgba(0,0,0,0.2); */
   
@@ -71,7 +70,7 @@ body {
   */
   background-color: #404434;
   
-  padding-top: 90px;
+  margin-top: 90px;
 }
 
 .nav-links {
@@ -82,6 +81,8 @@ body {
   margin-right: auto;
   width: 975px;
   max-width: 975px;
+  height: 90px;
+  top: 0;
 }
 
 .nav-links li {
@@ -124,6 +125,11 @@ body {
   color: #ffffff;
   font-weight: 600;
   background-color: #958831;
+}
+
+.menu-item:active {
+  background-color: #505c44; /* Background color when hovered */
+  color: #ffdd33;
 }
 
 .menu-item {
@@ -322,4 +328,15 @@ body {
 
 .right-content a {
   text-decoration: none;
+  color: white;
+}
+
+
+.right-content p:hover {
+  background-color: #958831;
+  color: #ffdd33;
+}
+
+.right-content p:active {
+  background-color: #505c44;
 }
