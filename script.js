@@ -47,3 +47,12 @@ fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io
 
 
     });
+
+
+const arrow = document.getElementById("setArrow");
+
+const moveArrow = () => {
+    arrow.innerHTML = " ▼";
+}
+
+arrow.setAttribute("onclick", "moveArrow()");
